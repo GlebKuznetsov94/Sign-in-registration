@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="border">
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<form action="#">
+			<h1>Создать аккаунт</h1>
+			<div class="social-container">
+				<a href="#" class="social"><i class="fab fa-instagram"></i></a>
+				<a href="#" class="social"><i class="fab fa-telegram"></i></a>
+				<a href="#" class="social"><i class="fab fa-vk"></i></a>
+			</div>
+			<span>Используйте email или аккаунт в социальных сетях для регистрации</span>
+			<input type="text" placeholder="Имя" />
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Пароль" />
+			<button>Создать учетную запись</button>
+		</form>
+	</div>
+	<div class="form-container sign-in-container">
+		<form action="#">
+			<h1>Войти</h1>
+			<div class="social-container">
+				<a href="#" class="social"><i class="fab fa-instagram"></i></a>
+				<a href="#" class="social"><i class="fab fa-telegram"></i></a>
+				<a href="#" class="social"><i class="fab fa-vk"></i></a>
+			</div>
+			<span>Введите логин и пароль</span>
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Пароль" />
+			<a href="#">Забыли пароль?</a>
+			<button>Войти</button>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1>С возвращением!</h1>
+				<p>Оставайтесь на связи! Войдите в систему с вашими персональными данными</p>
+				<button class="ghost" id="signIn">Войти в систему</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>Здравствуйте!</h1>
+				<p>Введите свои данные для регистрации и создания учетной записи</p>
+				<button class="ghost" id="signUp">Зарегистрироваться</button>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<script src="script.js" charset="utf-8"></script>
+<div class="credit">© Strawberry.inc🍓</div>
+</body>
+</html>
